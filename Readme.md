@@ -1,12 +1,12 @@
 ## [Multimodal Corn Disease Dataset(MCDD)]([WCG-VMamba: A multi-modal classification model for corn disease - ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0168169924012262?via%3Dihub))
 
-### 😕What is it？
+## 😕What is it？
 
 **The Multimodal Maize Disease Dataset (MCDD)** is a multi-modal dataset for maize disease classification, and we constructed the MCDD through field shooting and web data search. MCDD contains a total of **4633** corn images, involving **4 categories**:  <u>corn blight, corn rust, corn gray spot, and health images</u>. 
 
 Each corn image contains a corresponding text description, as described in **MCDD/csv/** */ for details. We use the **LLAVA-1. 5-7b** model to use the prompt word "**describe the picture**" for each image to obtain the text description.
 
-### 📁File Structure
+## 📁File Structure
 
 The dataset structure is as follows：
 
@@ -46,7 +46,7 @@ describe | label | image
 
 **image**: image path
 
-### 🏁Cite Our Work
+## 🏁Cite Our Work
 
 If our work is useful for your research, please consider citing and give us a star ⭐
 
