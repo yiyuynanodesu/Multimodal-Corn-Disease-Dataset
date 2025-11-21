@@ -2,9 +2,9 @@
 
 ### 😕What is it？
 
-**The Multimodal Maize Disease Dataset (MCDD)** is a multi-modal dataset for maize disease classification, and we constructed the MCDD through field shooting and web data search. MCDD contains a total of **4633** corn images, involving **4 categories**: corn blight, corn rust, corn gray spot, and health images. 
+**The Multimodal Maize Disease Dataset (MCDD)** is a multi-modal dataset for maize disease classification, and we constructed the MCDD through field shooting and web data search. MCDD contains a total of **4633** corn images, involving **4 categories**:  <u>corn blight, corn rust, corn gray spot, and health images</u>. 
 
-Each corn image contains a corresponding text description, as described in ==MCDD/csv/== for details. We use the **LLAVA-1. 5-7b** model to use the prompt word "**describe the picture**" for each image to obtain the text description.
+Each corn image contains a corresponding text description, as described in **MCDD/csv/** */ for details. We use the **LLAVA-1. 5-7b** model to use the prompt word "**describe the picture**" for each image to obtain the text description.
 
 ### 📁File Structure
 
